@@ -1,0 +1,45 @@
+footer {
+    background-color: #f2f2f23d;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.redes {
+    width: 50%;
+    text-align: center;
+}
+.redes img {
+    width: 10%;
+}
+.redes ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+}
+
+
+@media only screen and (min-width: 450px)
+and (max-width: 769px){
+    footer {
+        clear: both;
+        width: 100%;
+     }
+     .redes {
+         width: 50%;
+         float: right;
+     }
+}
+@media only screen and (min-width: 769px) {
+    footer {
+        width: 100%;
+        clear: both;
+        margin-bottom: 3%;
+    }
+     .redes {
+         width: 45%;
+         float: right;
+         margin-right: 1%;
+         text-align: center;
+     }
+}
